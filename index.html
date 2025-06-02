@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>VM Access Portal</title>
+  <style>
+    :root {
+      --bg-light: #ffffff;
+      --text-light: #000000;
+      --bg-dark: #121212;
+      --text-dark: #ffffff;
+      --input-bg-light: #f0f0f0;
+      --input-bg-dark: #1e1e1e;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 2rem;
+      background-color: var(--bg-light);
+      color: var(--text-light);
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    body.dark {
+      background-color: var(--bg-dark);
+      color: var(--text-dark);
+    }
+
+    h2 {
+      font-size: 24px;
+    }
+
+    input, button {
+      display: block;
+      margin: 10px 0;
+      padding: 10px;
+      width: 100%;
+      max-width: 400px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+    input {
+      background-color: var(--input-bg-light);
+      color: var(--text-light);
+    }
+
+    body.dark input {
+      background-color: var(--input-bg-dark);
+      color: var(--text-dark);
+    }
+
+    button {
+      background-color: #0078d4;
+      color: #ffffff;
+      cursor: pointer;
+    }
+
+    #toggleMode {
+      background-color: transparent;
+      border: 1px solid currentColor;
+      color: inherit;
+    }
+
+    #status {
+      margin-top: 1rem;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h2>Request VM Access</h2>
+  <form id="vmForm">
+    <input type="text" id="firstName" placeholder="First Name" required>
+    <input type="text" id="lastName" placeholder="Last Name" required>
+    <input type="email" id="email" placeholder="Email" required>
+    <button type="submit">Request Access</button>
+  </form>
+
+  <button id="toggleMode">Toggle Dark/Light Mode</button>
+  <p id="status"></p>
+
+  <script src="index.js"></script>
+</body>
+</html>
