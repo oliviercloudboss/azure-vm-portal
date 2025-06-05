@@ -1,5 +1,5 @@
 Hi there! 👋
-My name is Oliver Lawrence and this is my first real-world cloud project — a Self-Service Azure Virtual Machine (VM) Portal that I built from scratch as a self-taught cloud engineer.
+My name is Oliver Lawrence and this is my first real-world cloud project a Self-Service Azure Virtual Machine (VM) Portal that I built from scratch as a self taught aspiring cloud engineer.
 
 💡 What It Does
 This portal lets users request access to a virtual machine by filling out a simple web form. Behind the scenes:
@@ -12,7 +12,7 @@ A confirmation email is sent using SendGrid.
 
 Then it tries to auto-provision a Windows VM using an Azure Automation Runbook.
 
-All of this is automated. No manual VM setup needed. 💥
+All of this is automated. No manual VM setup needed. 
 
 🛠️ Tech Stack
 Frontend: HTML, CSS, JavaScript (hosted on GitHub + Azure Static Web Apps)
