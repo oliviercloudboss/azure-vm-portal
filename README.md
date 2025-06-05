@@ -1,5 +1,5 @@
 Hi there! 👋
-My name is Oliver Lawrence and this is my first real-world cloud engineering project — a Self-Service Azure Virtual Machine (VM) Portal that I built from scratch as a self-taught cloud engineer.
+My name is Oliver Lawrence and this is my first real-world cloud project — a Self-Service Azure Virtual Machine (VM) Portal that I built from scratch as a self-taught cloud engineer.
 
 💡 What It Does
 This portal lets users request access to a virtual machine by filling out a simple web form. Behind the scenes:
